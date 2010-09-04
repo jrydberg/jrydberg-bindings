@@ -33,11 +33,11 @@ binding class:
 
     PersonBinding binding = (PersonBinding) GWT.create(PersonBinding.class);
 
-Later you can use this to get HasValue<T> instances for a property.  For example 
-`binding.name()` will return a `HasValue<String>` for the name property of the
-Person binding.
+Later you can use this to get `HasValue<T>` instances for a property.  For example 
+`binding.name()` will return a `HasValue<String>` for the `name` property of the
+Person bean.
 
-Initialize the binding with setting a root bean, or a root HasValue;
+Initialize the binding with setting a root bean;
 
     binding.initWithValue(personBean);
 
